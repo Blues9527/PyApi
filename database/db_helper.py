@@ -11,7 +11,7 @@ class DBHelper():
 
         try:
             # 连接数据库
-            self.conn = pymysql.connect('localhost', 'root', '000000', 'Blues')
+            self.conn = pymysql.connect('localhost', 'blues', 'Lan961118', 'Blues')
             self.cur = self.conn.cursor()
         except Exception:
             print('连接失败')

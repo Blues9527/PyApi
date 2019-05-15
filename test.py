@@ -66,4 +66,4 @@ def register():
         return m.to_json()
 
 
-server.run(port=8090, debug=True, host='127.0.0.1')
+server.run(port=8090, debug=True, host='192.168.33.93')
